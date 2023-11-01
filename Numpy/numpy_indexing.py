@@ -42,7 +42,13 @@ print(arr_2d[1])
 # Slicing of the array
 print(arr_2d[:2, 2:])
 
+print("For slicing the array for example, from the second element, slice elements from index 0 to index 2 (which is not included)")
+# print(arr_2d[1, :2])
+# print(arr_2d[:2, 1:])
+
+print(arr_2d[:])
 # Shaping only the bottom row
+print("Another one:")
 print(arr_2d[2, :])
 
 # ***********************************************************************
