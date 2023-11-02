@@ -79,3 +79,11 @@ print(arr[bool_arr])
 
 x = 7
 print(arr > x)
+
+
+# create a 2D array
+array1 = np.array([[1, 3, 5, 7],
+                   [9, 11, 13, 15],
+                   [1, 2, 3, 4],
+                   [45, 90, 12, 90]])
+print(array1[1:3:, 1:3:])

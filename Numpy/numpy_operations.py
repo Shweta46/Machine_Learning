@@ -24,6 +24,14 @@ print(d)
 # e = np.log(arr)
 # print(e)
 
-arr1 = [1,2,3,4,5,6,7,8,9,10]
-arr1 = np.reshape(2,5)
+
+# using numpy, creating an array is done by this method
+arr1 = np.array([1,2,3,4,5,6,7,8,9,10])
+arr1 = arr1.reshape(2,5)
 print(arr1)
+
+
+# to create an array using numpy from a list of lists
+my = [[1,2,3,4], [5,6,7,8], [9,10,11,12]]
+my = np.array(my)
+print(my)
